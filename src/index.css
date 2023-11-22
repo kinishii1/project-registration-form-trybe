@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&display=swap');
+
+:root {
+  --background: #fafafa;
+  --gray-100: #eff1f4;
+  --gray-200: #ced4da;
+  --gray-500: #565f6a;
+  --gray-700: #3e4854;
+  --green-500: #044422;
+  --blue-300: #075bbb;
+  --blue-500: #094493;
+  --link: #771884;
+  --shadow: #0000001a;
+  --title: 26px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+}
+
+/* ESTILIZAÇÃO GERAL */
+
+main {
+  display: flex;
+}
+
+body {
+  background-color: var(--background);
+}
+
+h1 {
+  font-size: var(--title);
+  font-weight: 700;
+}
+
+h2 {
+  color: #FFF;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+button {
+  cursor: pointer;
+  background-color: var(--blue-300);
+  border-radius: 4px;
+  border: 1px solid var(--grey-500);
+  height: 45px;
+  margin-top: 20px;
+  color: #FFF;
+  font-size: 16px;
+  font-style: normal;
+  line-height: normal;
+}
+
+button:hover {
+  background-color: var(--blue-500);
+  border: 1px solid var(--grey-700);
+}
+
+a {
+  color: var(--link, #771884);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
