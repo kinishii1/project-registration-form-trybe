@@ -7,7 +7,7 @@
   <h3 align="center">Registration Form Trybe</h3>
 
   <p align="center">
-    An simple form using Css modules
+    An simple form with a functional modal
     <br/>
     <br/>
   </p>
